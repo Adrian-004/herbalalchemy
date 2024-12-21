@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Herval Alchemy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css">
+<!--Fonts from Google Fonts for design purposes -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- Logo -->
+        <h1 class="logo">
+            Herbal
+            <a href="index.html">
+                <img src="images/websiteLogo.png" alt="Herbal Alchemy Logo">
+            </a>Alchemy
+        </h1>
+    
+        <!-- Hamburger Icon for Mobile -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+        <!-- Center links -->
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+
+
+    <!-- Hero Section Content -->
+    <div class="hero-content">
+        <video autoplay muted loop>
+            <source src="videos/BgVid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+      
+        <div class="content">
+            <h2>Crafting Nature’s Power into Healing Remedies</h2>
+            <p>
+                At Herbal Alchemy, we blend ancient wisdom with modern science to create natural remedies that nourish your body, mind, and spirit. 
+                Discover the transformative power of herbs and unlock the secrets of holistic wellness, guided by nature’s healing touch.
+            </p>
+            <a href="#LearnMore" class="cta-button">Learn More</a>
+        </div>
+    </div>
+</section>
+
+     <!-- About Us section -->
+<section id="about" class="about-section">
+    <div class="about-container">
+        <!-- Left Side: About Us Content -->
+        <div class="about-content">
+            <a href="AboutUs.html" >
+                <h2>About Us</h2><br>
+            </a>
+            
+            <p>
+                Herbal Alchemy is your trusted source for knowledge about herbal plants and natural healing. 
+                Our goal is to inspire and educate about the benefits of herbs and their role in creating a healthier, 
+                more sustainable lifestyle. Whether you're new to herbal remedies or an experienced enthusiast, 
+                we are here to support your journey.
+            </p>
+            <a href="MyTeam.html">
+                <p>
+                    Meet Our Team
+                </p>
+            </a>
+
+            <!-- Social Media Links -->
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/FbLogo.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/xLogo.png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/IGLogo.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Right Side: Video -->
+        <div class="about-video">
+            <video autoplay loop muted plays-inline>
+                <source src="videos/Videobg.mp4 " type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</section>
+
+    <section class="health-issues">
+        <h1>Health Issues and Herbal Cures</h1>
+
+        <!-- Respiratory Issues Box -->
+        <div class="health-issue-box">
+           <a href="Respiratory Issues.html"><h2>Respiratory Issues</h2></a> 
+            <p>A range of conditions affecting the lungs and airways, causing difficulty in breathing and other discomforts.</p>
+            <div class="diseases">
+                <a href="Respiratory Issues.html#Asthma" class="disease">
+                    <h3>Asthma</h3>
+                    <p>Chronic inflammation of the airways that causes difficulty breathing.</p>
+                </a>
+                <a href="Respiratory Issues.html#Bronchitis" class="disease">
+                    <h3>Bronchitis</h3>
+                    <p>Inflammation of the bronchial tubes leading to cough and mucus production.</p>
+                </a>
+                <a href="Respiratory Issues.html#Pneumonia" class="disease">
+                    <h3>Pneumonia</h3>
+                    <p>Infection causing inflammation of the lungs, resulting in difficulty breathing.</p>
+                </a>
+                <a href="Respiratory Issues.html#Tuberculosis (TB)" class="disease">
+                    <h3>Tuberculosis (TB)</h3>
+                    <p>A bacterial infection that primarily affects the lungs, causing coughing, fever, and weight loss.</p>
+                </a>
+                <a href="Respiratory Issues.html#COPD" class="disease">
+                    <h3>Chronic Obstructive Pulmonary Disease (COPD)</h3>
+                    <p>A progressive lung disease that makes it hard to breathe, commonly caused by smoking.</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Digestive Disorders Box -->
+        <div class="health-issue-box">
+            <a href="Digestive Disorders.html"><h2>Digestive Disorders</h2></a>
+            <p>Conditions affecting the gastrointestinal system, leading to discomfort and dysfunction.</p>
+            <div class="diseases">
+                <a href="Digestive Disorders.html#Constipation" class="disease">
+                    <h3>Constipation</h3>
+                    <p>Difficulty in passing stools or infrequent bowel movements.</p>
+                </a>
+                <a href="Digestive Disorders.html#Stomach Ulcers" class="disease">
+                    <h3>Stomach Ulcers</h3>
+                    <p>Open sores on the stomach lining causing pain and discomfort.</p>
+                </a>
+                <a href="Digestive Disorders.html#Acid Reflux" class="disease">
+                    <h3>Acid Reflux</h3>
+                    <p>Stomach acid frequently backs up into the esophagus, causing heartburn.</p>
+                </a>
+                <a href="Digestive Disorders.html#Gastroenteritis" class="disease">
+                    <h3>Gastroenteritis</h3>
+                    <p>Infection of the stomach and intestines, causing diarrhea, vomiting, and stomach cramps.</p>
+                </a>
+                <a href="Digestive Disorders.html#Gallstoness" class="disease">
+                    <h3>Gallstones</h3>
+                    <p>Solid particles that form in the gallbladder, causing pain and digestive problems.</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Skin Conditions Box -->
+        <div class="health-issue-box">
+            <a href="Skin Conditions.html#Skin Conditions"><h2>Skin Conditions</h2></a>
+            <p>Conditions affecting the skin, including infections, inflammations, and irritations.</p>
+            <div class="diseases">
+                <a href="Skin Conditions.html#Eczema" class="disease">
+                    <h3>Eczema</h3>
+                    <p>Inflammatory skin condition causing itching, redness, and irritation.</p>
+                </a>
+                <a href="Skin Conditions.html#Psoriasis" class="disease">
+                    <h3>Psoriasis</h3>
+                    <p>Chronic autoimmune condition that leads to thick, scaly skin patches.</p>
+                </a>
+                <a href="Skin Conditions.html#Acne" class="disease">
+                    <h3>Acne</h3>
+                    <p>Skin condition involving pimples, blackheads, and cysts due to clogged pores.</p>
+                </a>
+                <a href="Skin Conditions.html#Fungal Infections" class="disease">
+                    <h3>Fungal Infections</h3>
+                    <p>Infections caused by fungi, affecting the skin, nails, and scalp.</p>
+                </a>
+                <a href="Skin Conditions.html#Ringworm" class="disease">
+                    <h3>Ringworm</h3>
+                    <p>A common fungal infection that causes red, itchy, and circular rashes.</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Heart Health Box -->
+        <div class="health-issue-box">
+            <a href="Heart Health.html">    <h2>Heart Health</h2>      </a>
+            <p>Conditions affecting the heart and blood vessels, leading to circulatory problems.</p>
+            <div class="diseases">
+                <a href="Heart Health.html#Hypertension" class="disease">
+                    <h3>Hypertension</h3>
+                    <p>High blood pressure that can lead to heart disease and stroke.</p>
+                </a>
+                <a href="Heart Health.html#High Cholesterol" class="disease">
+                    <h3>High Cholesterol</h3>
+                    <p>Excessive cholesterol in the blood, increasing the risk of heart disease.</p>
+                </a>
+                <a href="Heart Health.html#Arrhythmia" class="disease">
+                    <h3>Arrhythmia</h3>
+                    <p>Irregular heartbeat or abnormal heart rhythm.</p>
+                </a>
+                <a href="Heart Health.html#Heart Attack" class="disease">
+                    <h3>Heart Attack</h3>
+                    <p>Occurs when blood flow to a part of the heart is blocked, causing tissue damage.</p>
+                </a>
+                <a href="Heart Health.html#Stroke" class="disease">
+                    <h3>Stroke</h3>
+                    <p>Damage to the brain caused by a blockage or rupture of blood vessels.</p>
+                </a>
+            </div>
+        </div>
+
+       <!-- Fever & Inflammation -->
+<div class="health-issue-box">
+    <a href="Fever & Inflammation.html"><h2>Fever & Inflammation</h2></a>
+    <p>Fever and inflammation are symptoms of various infections and conditions. These can be alleviated using herbal remedies that reduce swelling, pain, and high temperatures.</p>
+    
+    <div class="diseases">
+        <a href="Fever & Inflammation.html#Fever" class="disease">
+            <h3>Fever</h3>
+            <p>Fever is a common symptom of infection or inflammation, characterized by an elevated body temperature.</p>
+        </a>
+        <a href="Fever & Inflammation.html#Inflammation" class="disease">
+            <h3>Inflammation</h3>
+            <p>Inflammation is the body's response to injury or infection, causing redness, swelling, and pain.</p>
+        </a>
+        <a href="Fever & Inflammation.html#Arthritis" class="disease">
+            <h3>Arthritis</h3>
+            <p>A condition causing joint inflammation, stiffness, and pain, often related to autoimmune responses.</p>
+        </a>
+        <a href="Fever & Inflammation.html#Tonsillitis" class="disease">
+            <h3>Tonsillitis</h3>
+            <p>Inflammation of the tonsils caused by viral or bacterial infections, leading to sore throat and fever.</p>
+        </a>
+        <a href="Fever & Inflammation.html#Sinusitis" class="disease">
+            <h3>Sinusitis</h3>
+            <p>Inflammation of the sinuses, often resulting in facial pain, congestion, and fever.</p>
+        </a>
+        <a href="Fever & Inflammation.html#Appendicitis" class="disease">
+            <h3>Appendicitis</h3>
+            <p>Inflammation of the appendix that can cause severe abdominal pain and fever, requiring urgent care.</p>
+        </a>
+        <a href="Fever & Inflammation.html#Dermatitis" class="disease">
+            <h3>Dermatitis</h3>
+            <p>A skin condition characterized by inflammation, redness, and itching, often triggered by allergens or irritants.</p>
+        </a>
+    </div>
+</div>
+
+
+        <!-- Mental Health Box -->
+        <div class="health-issue-box">
+            <a href="Fever & Inflammation.html"><h2>Mental Health</h2></a>
+            <p>Conditions affecting mental well-being, mood, and cognitive function.</p>
+            <div class="diseases">
+                <a href="Mental Health.html#Anxiety" class="disease">
+                    <h3>Anxiety</h3>
+                    <p>Excessive worry or fear that interferes with daily life.</p>
+                </a>
+                <a href="Mental Health.html#Depression" class="disease">
+                    <h3>Depression</h3>
+                    <p>Persistent sadness, loss of interest, and hopelessness.</p>
+                </a>
+                <a href="Mental Health.html#Bipolar Disorder" class="disease">
+                    <h3>Bipolar Disorder</h3>
+                    <p>A mental illness that causes extreme mood swings, including emotional highs and lows.</p>
+                </a>
+                <a href="Mental Health.html#Schizophrenia" class="disease">
+                    <h3>Schizophrenia</h3>
+                    <p>A chronic mental health condition that affects thinking, feeling, and behavior.</p>
+                </a>
+                <a href="Mental Health.html#PTSD" class="disease">
+                    <h3>Post-Traumatic Stress Disorder (PTSD)</h3>
+                    <p>A mental health disorder triggered by experiencing or witnessing a traumatic event.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="herbal-plants">
+        <header>
+            <h2 id="LearnMore">Most Common Medicinal Herbs</h2>
+            <p>Discover a wide variety of herbal plants renowned for their medicinal properties, used globally for health and wellness.</p>
+        </header>
+        <div class="herb-list">
+            <!-- Aloe Vera -->
+            <article class="herb">
+                <img src="images/aloevera.avif" alt="Aloe Vera">
+                <h3>Aloe Vera (<em>Aloe barbadensis</em>)</h3>
+                <p>Known for its soothing properties, Aloe Vera is used to treat burns, skin irritations, and digestive issues.</p>
+            </article>
+    
+            <!-- Chamomile -->
+            <article class="herb">
+                <img src="images/Chamomile.webp" alt="Chamomile">
+                <h3>Chamomile (<em>Matricaria chamomilla</em>)</h3>
+                <p>Popular for its calming and sleep-inducing effects, also used to relieve digestive problems.</p>
+            </article>
+    
+            <!-- Echinacea -->
+            <article class="herb">
+                <img src="images/Echinacea.webp" alt="Echinacea">
+                <h3>Echinacea (<em>Echinacea purpurea</em>)</h3>
+                <p>Boosts the immune system and helps combat colds, infections, and respiratory issues.</p>
+            </article>
+    
+            <!-- Garlic -->
+            <article class="herb">
+                <img src="images/Garlic.webp" alt="Garlic">
+                <h3>Garlic (<em>Allium sativum</em>)</h3>
+                <p>Famous for its cardiovascular benefits, garlic also has antibacterial and antiviral properties.</p>
+            </article>
+    
+            <!-- Ginger -->
+            <article class="herb">
+                <img src="images/Ginger.webp" alt="Ginger">
+                <h3>Ginger (<em>Zingiber officinale</em>)</h3>
+                <p>Used to alleviate nausea, inflammation, and digestive discomfort.</p>
+            </article>
+    
+            <!-- Turmeric -->
+            <article class="herb">
+                <img src="images/Turmeric.avif" alt="Turmeric">
+                <h3>Turmeric (<em>Curcuma longa</em>)</h3>
+                <p>Rich in curcumin, turmeric is a powerful anti-inflammatory and antioxidant herb.</p>
+            </article>
+    
+            <!-- Mint -->
+            <article class="herb">
+                <img src="images/Mint.webp" alt="Mint">
+                <h3>Mint (<em>Mentha</em>)</h3>
+                <p>Known for its cooling and soothing effects, mint aids digestion and alleviates headaches.</p>
+            </article>
+    
+            <!-- Lavender -->
+            <article class="herb">
+                <img src="images/Lavender.webp" alt="Lavender">
+                <h3>Lavender (<em>Lavandula</em>)</h3>
+                <p>Recognized for its calming and relaxing properties, often used to reduce anxiety and improve sleep.</p>
+            </article>
+    
+            <!-- Holy Basil -->
+            <article class="herb">
+                <img src="images/Holy Basil.webp" alt="Holy Basil">
+                <h3>Holy Basil (<em>Ocimum sanctum</em>)</h3>
+                <p>A traditional herb used to manage stress, boost immunity, and fight infections.</p>
+            </article>
+    
+            <!-- Lemon Balm -->
+            <article class="herb">
+                <img src="images/oregano.avif" alt="Lemon Balm">
+                <h3>Lemon Balm (<em>Melissa officinalis</em>)</h3>
+                <p>Helps reduce anxiety, improve mood, and promote restful sleep. It's also used to relieve digestive issues.</p>
+            </article>
+    
+            <!-- Sage -->
+            <article class="herb">
+                <img src="images/Sage.jpg" alt="Sage">
+                <h3>Sage (<em>Salvia officinalis</em>)</h3>
+                <p>Used to improve memory, reduce inflammation, and support digestive health.</p>
+            </article>
+    
+            <!-- Ashwagandha -->
+            <article class="herb">
+                <img src="images/Ashwagandha.avif" alt="Ashwagandha">
+                <h3>Ashwagandha (<em>Withania somnifera</em>)</h3>
+                <p>Known for its adaptogenic properties, ashwagandha helps the body manage stress and supports overall wellness.</p>
+            </article>
+    
+            <!-- Calendula -->
+            <article class="herb">
+                <img src="images/Calendula.avif" alt="Calendula">
+                <h3>Calendula (<em>Calendula officinalis</em>)</h3>
+                <p>Used in topical applications to heal wounds and soothe skin irritation. It also has mild anti-inflammatory properties.</p>
+            </article>
+    
+            <!-- Black Cohosh -->
+            <article class="herb">
+                <img src="images/Black Cohosh.webp" alt="Black Cohosh">
+                <h3>Black Cohosh (<em>Cimicifuga racemosa</em>)</h3>
+                <p>Helps relieve symptoms of menopause, such as hot flashes and mood swings, and may support overall hormonal balance.</p>
+            </article>
+    
+            <!-- St. John's Wort -->
+            <article class="herb">
+                <img src="images/St. John's Wort.jpg" alt="St. John's Wort">
+                <h3>St. John's Wort (<em>Hypericum perforatum</em>)</h3>
+                <p>Primarily used to alleviate mild depression, anxiety, and mood disorders. It also has anti-inflammatory properties.</p>
+            </article>
+        </div>
+    </section>
+    
+
+<section id="FAQs" class="faq-section">
+    <h1 class="faq-title">Have Any Question?</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <summary class="faq-question">
+                What is Herbal Alchemy?
+            </summary>
+            <p class="faq-answer">Herbal Alchemy is a website dedicated to sharing information about various herbal plants, their uses, and how to turn them into natural remedies. Our goal is to promote the benefits of herbal medicine and encourage a healthier lifestyle through nature.</p>
+        </div>
+        <div class="faq-item">
+            <summary class="faq-question">
+                Are these remedies safe to use?
+            </summary>
+            <p class="faq-answer">While many herbal remedies have been used traditionally for centuries, it’s important to consult with a healthcare professional before using any new treatment, especially if you have existing health conditions or are taking medications.</p>
+        </div>
+        <div class="faq-item">
+            <summary class="faq-question">
+                How do I make the remedies shared on this website?
+            </summary>
+            <p class="faq-answer">We provide simple, step-by-step guides on how to prepare the remedies from herbal plants. Each remedy page contains the ingredients needed, instructions, and tips for safe usage.</p>
+        </div>
+        <div class="faq-item">
+            <summary class="faq-question">
+                Where can I find the herbal plants mentioned?
+            </summary>
+            <p class="faq-answer">Most of the plants featured on our website can be found in local markets, health stores, or grown in home gardens. We also suggest ways to source herbs sustainably.</p>
+        </div>
+        <div class="faq-item">
+            <summary class="faq-question">
+                Can I use these remedies for children or pregnant women?
+            </summary>
+            <p class="faq-answer">Some herbal remedies may not be safe for children, pregnant, or breastfeeding women. Always consult with a healthcare provider before administering any herbal remedy in such cases.</p>
+        </div>
+        <div class="faq-item">
+            <summary class="faq-question">
+                Is the information on the website scientifically backed?
+            </summary>
+            <p class="faq-answer">The content provided on Herbal Alchemy is based on traditional uses of herbs. However, while many herbs have been studied, not all remedies are fully backed by scientific research. We always recommend consulting a healthcare professional.</p>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+
+    <div class="contact-container">
+        <div class="contact-telephone">
+            <img src="images/telephone.png" alt="" class="telephone">
+            <br>
+            <span>(+63)9123456789</span>
+        </div>
+
+        <div class="contact-email">
+            <img src="images/email.png" alt="" class="email">
+            <br>
+            <span>HerbalAlchemy@gmail.com</span>
+        </div>
+    </div>
+
+    <hr>
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h1>About Herbal Alchemy</h1>
+            <p>Herbal Alchemy is dedicated to promoting the natural healing powers of plants. Explore our extensive collection of herbal remedies and learn how to incorporate them into your daily life for a healthier you.</p>
+        </div>
+
+        <div class="footer-quicklinks">
+            <h1>Quick Links</h1>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="AboutUs.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="Contact.html">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="MyTeam.html">
+                        My Team
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-socials">
+            <h1>Follow Us</h1>
+            <p>Connect with us on social media for the latest updates on herbal remedies and health tips:</p>
+            <ul>
+                <li>
+                    <a href="/">
+                        <img src="images/FbLogo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="images/xLogo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="images/IGLogo.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Copyright Notice -->
+    <div class="footer-copyright">
+        <p>&copy; 2024 Herbal Alchemy. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="scripts.js" type="text/javascript"></script>
+
+</body>
+</html>
